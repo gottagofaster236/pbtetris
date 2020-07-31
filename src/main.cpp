@@ -58,8 +58,10 @@ int main_handler(int type, int par1, int par2) {
         }
         break;
     case EVT_FOREGROUND:
-        if(background_pause)
+        if(background_pause){
             game.toggle_pause();
+            background_pause = false;
+        }
         break;
     case EVT_EXIT:
         deinit();
