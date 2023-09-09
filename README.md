@@ -1,5 +1,8 @@
 # pbtetris
+
 Tetris for PocketBook 6xx e-readers. (Although it should work on later models).
+
+This is a version for 800x600 displays, check out [this fork](https://github.com/neilswann80/pbtetris) by neilswann80 for HD display support.
 
 You can download the app [here](https://github.com/gottagofaster236/pbtetris/raw/master/pbtetris.app).
 
